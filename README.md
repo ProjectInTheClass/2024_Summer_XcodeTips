@@ -28,6 +28,7 @@ git push origin 자신의닉네임
 ![Branch_Check](resource/Branch_Check.png)
 
 ## Xcode 사용팁
+- 주석 `⌘(command) + /`
 - 커서 이동
     - `⌥(option)`+ 좌우 화살표: 단어 혹은 키워드 단위 이동
     - `⌘(command)`+ 좌우 화살표: 줄 맨 끝으로 이동
