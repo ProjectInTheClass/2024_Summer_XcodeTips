@@ -43,6 +43,10 @@ git push origin 자신의닉네임
 - Docs 이동
     - `⌥(option)`+ 키워드 클릭: 공식 문서 Overview표시 및 이동
     - `⌘(command)`+ 키워드 클릭: 소스 선언부로 이동
+- `⌘(command) + 0` → 1 ~ 7 네비게이터 단축키
+- `⌥(option) + ⌘(command) + 0` → 1 ~ 6 유틸리티 단축키
+- `⌘(command) + R` 실행
+- `⌘(command) + .` 실행 중지
 
 ## 실습 자료 PR 올리기 - 반드시 실습 진행 후 진행
 ### 1. Terminal에서 `git add` 후 Commit 메세지 남기기
