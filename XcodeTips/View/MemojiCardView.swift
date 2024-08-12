@@ -49,6 +49,8 @@ struct MemojiCardView: View {
         let uiImage = renderer.image { _ in
             view.drawHierarchy(in: view.bounds, afterScreenUpdates: true)
         }
+        
+        // FIXME: 권한이 없는 경우, 안내창 표시하기
         UIImageWriteToSavedPhotosAlbum(uiImage, nil, nil, nil)
     }
     
