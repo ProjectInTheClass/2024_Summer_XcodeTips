@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// 괄호 접기: ⌥(option) + ⌘(command) + 좌우 화살표
 struct MemojiCardView: View {
     var modl: CardModel
     @State var viewSize: CGSize = .zero
