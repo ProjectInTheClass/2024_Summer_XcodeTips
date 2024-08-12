@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		C7305F052C663EC30065FF3C /* XcodeTipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F042C663EC30065FF3C /* XcodeTipsApp.swift */; };
-		C7305F072C663EC30065FF3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F062C663EC30065FF3C /* ContentView.swift */; };
+		C7305F072C663EC30065FF3C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F062C663EC30065FF3C /* MainView.swift */; };
 		C7305F092C663EC50065FF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7305F082C663EC50065FF3C /* Assets.xcassets */; };
 		C7305F0C2C663EC50065FF3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7305F0B2C663EC50065FF3C /* Preview Assets.xcassets */; };
 		C7305F162C663EC50065FF3C /* XcodeTipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F152C663EC50065FF3C /* XcodeTipsTests.swift */; };
 		C7305F202C663EC50065FF3C /* XcodeTipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F1F2C663EC50065FF3C /* XcodeTipsUITests.swift */; };
 		C7305F222C663EC50065FF3C /* XcodeTipsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F212C663EC50065FF3C /* XcodeTipsUITestsLaunchTests.swift */; };
+		C7305F2F2C6746380065FF3C /* CodeSnippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F2E2C6746380065FF3C /* CodeSnippet.swift */; };
+		C7305F332C6753410065FF3C /* SelectThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F322C6753410065FF3C /* SelectThemeView.swift */; };
+		C7305F362C675E390065FF3C /* AddMemojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F352C675E390065FF3C /* AddMemojiView.swift */; };
+		C7305F382C675E6E0065FF3C /* MemojiTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F372C675E6E0065FF3C /* MemojiTextView.swift */; };
+		C7305F3B2C675EC30065FF3C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F3A2C675EC30065FF3C /* Theme.swift */; };
+		C7305F3D2C675F430065FF3C /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F3C2C675F430065FF3C /* CardModel.swift */; };
+		C7305F3F2C6760D00065FF3C /* AddNicknameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F3E2C6760D00065FF3C /* AddNicknameView.swift */; };
+		C7305F412C6783A80065FF3C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F402C6783A70065FF3C /* CardView.swift */; };
+		C77C4FFE2C6900E100E1445D /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77C4FFD2C6900E100E1445D /* UITextView+Extension.swift */; };
+		C77C50022C69036B00E1445D /* MemojiCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77C50012C69036B00E1445D /* MemojiCardView.swift */; };
+		C7B155502C6A03FB0015E91B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B1554F2C6A03FB0015E91B /* Title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +44,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C77C4FF92C68F78900E1445D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		C7305F012C663EC30065FF3C /* XcodeTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7305F042C663EC30065FF3C /* XcodeTipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTipsApp.swift; sourceTree = "<group>"; };
-		C7305F062C663EC30065FF3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7305F062C663EC30065FF3C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C7305F082C663EC50065FF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7305F0B2C663EC50065FF3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C7305F112C663EC50065FF3C /* XcodeTipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeTipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +68,17 @@
 		C7305F1B2C663EC50065FF3C /* XcodeTipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeTipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7305F1F2C663EC50065FF3C /* XcodeTipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTipsUITests.swift; sourceTree = "<group>"; };
 		C7305F212C663EC50065FF3C /* XcodeTipsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTipsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7305F2E2C6746380065FF3C /* CodeSnippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippet.swift; sourceTree = "<group>"; };
+		C7305F322C6753410065FF3C /* SelectThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectThemeView.swift; sourceTree = "<group>"; };
+		C7305F352C675E390065FF3C /* AddMemojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemojiView.swift; sourceTree = "<group>"; };
+		C7305F372C675E6E0065FF3C /* MemojiTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemojiTextView.swift; sourceTree = "<group>"; };
+		C7305F3A2C675EC30065FF3C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C7305F3C2C675F430065FF3C /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		C7305F3E2C6760D00065FF3C /* AddNicknameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNicknameView.swift; sourceTree = "<group>"; };
+		C7305F402C6783A70065FF3C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C77C4FFD2C6900E100E1445D /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
+		C77C50012C69036B00E1445D /* MemojiCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemojiCardView.swift; sourceTree = "<group>"; };
+		C7B1554F2C6A03FB0015E91B /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				C7305F042C663EC30065FF3C /* XcodeTipsApp.swift */,
-				C7305F062C663EC30065FF3C /* ContentView.swift */,
+				C7305F342C67534F0065FF3C /* View */,
+				C7305F392C675EBB0065FF3C /* Data */,
+				C77C4FFC2C6900D100E1445D /* Extension */,
+				C7305F2E2C6746380065FF3C /* CodeSnippet.swift */,
 				C7305F082C663EC50065FF3C /* Assets.xcassets */,
 				C7305F0A2C663EC50065FF3C /* Preview Content */,
 			);
@@ -127,6 +165,46 @@
 			path = XcodeTipsUITests;
 			sourceTree = "<group>";
 		};
+		C7305F342C67534F0065FF3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7305F062C663EC30065FF3C /* MainView.swift */,
+				C7305F322C6753410065FF3C /* SelectThemeView.swift */,
+				C7305F352C675E390065FF3C /* AddMemojiView.swift */,
+				C7305F3E2C6760D00065FF3C /* AddNicknameView.swift */,
+				C77C50012C69036B00E1445D /* MemojiCardView.swift */,
+				C7305F422C678A0B0065FF3C /* Component */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7305F392C675EBB0065FF3C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C7305F3C2C675F430065FF3C /* CardModel.swift */,
+				C7B1554F2C6A03FB0015E91B /* Title.swift */,
+				C7305F3A2C675EC30065FF3C /* Theme.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C7305F422C678A0B0065FF3C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				C7305F402C6783A70065FF3C /* CardView.swift */,
+				C7305F372C675E6E0065FF3C /* MemojiTextView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		C77C4FFC2C6900D100E1445D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C77C4FFD2C6900E100E1445D /* UITextView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +215,7 @@
 				C7305EFD2C663EC30065FF3C /* Sources */,
 				C7305EFE2C663EC30065FF3C /* Frameworks */,
 				C7305EFF2C663EC30065FF3C /* Resources */,
+				C77C4FF92C68F78900E1445D /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -257,8 +336,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7305F072C663EC30065FF3C /* ContentView.swift in Sources */,
+				C7305F2F2C6746380065FF3C /* CodeSnippet.swift in Sources */,
+				C77C50022C69036B00E1445D /* MemojiCardView.swift in Sources */,
+				C77C4FFE2C6900E100E1445D /* UITextView+Extension.swift in Sources */,
+				C7305F3B2C675EC30065FF3C /* Theme.swift in Sources */,
+				C7305F332C6753410065FF3C /* SelectThemeView.swift in Sources */,
+				C7305F382C675E6E0065FF3C /* MemojiTextView.swift in Sources */,
+				C7305F3D2C675F430065FF3C /* CardModel.swift in Sources */,
+				C7305F072C663EC30065FF3C /* MainView.swift in Sources */,
 				C7305F052C663EC30065FF3C /* XcodeTipsApp.swift in Sources */,
+				C7305F3F2C6760D00065FF3C /* AddNicknameView.swift in Sources */,
+				C7305F412C6783A80065FF3C /* CardView.swift in Sources */,
+				C7305F362C675E390065FF3C /* AddMemojiView.swift in Sources */,
+				C7B155502C6A03FB0015E91B /* Title.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,18 +507,22 @@
 		C7305F262C663EC50065FF3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XcodeTips/Preview Content\"";
+				DEVELOPMENT_TEAM = Z629PZ4XVL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "부캐 카드 이미지 저장위한 권한이 필요합니다.";
+				INFOPLIST_KEY_NSStickerSharingLevel = Messages;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,27 +530,33 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.usg.XcodeTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C7305F272C663EC50065FF3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XcodeTips/Preview Content\"";
+				DEVELOPMENT_TEAM = Z629PZ4XVL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "부캐 카드 이미지 저장위한 권한이 필요합니다.";
+				INFOPLIST_KEY_NSStickerSharingLevel = Messages;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +564,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.usg.XcodeTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
