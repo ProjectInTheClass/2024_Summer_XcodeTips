@@ -20,7 +20,7 @@ struct CardView<Content: View>: View where Content: View {
                         .scaledToFit()
                         .frame(height: 30)
                     Rectangle()
-                        .fill(.black)
+                        .fill(model.mode == .light ? .black : .white)
                         .frame(width: 1, height: 35)
                     Image(model.codershighImageName)
                         .resizable()
