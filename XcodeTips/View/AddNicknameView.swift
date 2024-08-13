@@ -73,14 +73,14 @@ struct AddNicknameView: View {
         .padding([.horizontal], 50)
         .ignoresSafeArea(.keyboard)
         // 주석 단축키 ⌘(command) + /
-//        .alert(
-//            "닉네임을 입력해주세요.",
-//            isPresented: $isShowAlert
-//        ) {
-//            Button("확인") {
-//                isShowAlert.toggle()
-//            }
-//        }
+        .alert(
+            "닉네임을 입력해주세요.",
+            isPresented: $isShowAlert
+        ) {
+            Button("확인") {
+                isShowAlert.toggle()
+            }
+        }
     }
 }
 
