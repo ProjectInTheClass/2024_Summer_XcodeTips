@@ -22,7 +22,7 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         NavigationStack {
-            VStack(spacing: 1) {
+            VStack(alignment: .center, spacing: 10) {
                 Text("Memoji Card Marker")
                     .font(.title)
                 NavigationLink{
@@ -37,9 +37,11 @@ struct MainView: View {
                         Text("Get Start!")
                             .foregroundStyle(Color.white)
                     }
+                    .frame(height: 44)
                     .padding(10)
                 }
             }
+            .padding(20)
         }
     }
 }
