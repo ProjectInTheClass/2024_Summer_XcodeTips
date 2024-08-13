@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C718D8952C6B70EE00205B76 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C718D8942C6B70EE00205B76 /* TestView.swift */; };
 		C7305F052C663EC30065FF3C /* XcodeTipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F042C663EC30065FF3C /* XcodeTipsApp.swift */; };
 		C7305F072C663EC30065FF3C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7305F062C663EC30065FF3C /* MainView.swift */; };
 		C7305F092C663EC50065FF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7305F082C663EC50065FF3C /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C718D8942C6B70EE00205B76 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		C7305F012C663EC30065FF3C /* XcodeTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7305F042C663EC30065FF3C /* XcodeTipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeTipsApp.swift; sourceTree = "<group>"; };
 		C7305F062C663EC30065FF3C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				C7305F392C675EBB0065FF3C /* Data */,
 				C77C4FFC2C6900D100E1445D /* Extension */,
 				C7305F2E2C6746380065FF3C /* CodeSnippet.swift */,
+				C718D8942C6B70EE00205B76 /* TestView.swift */,
 				C7305F082C663EC50065FF3C /* Assets.xcassets */,
 				C7305F0A2C663EC50065FF3C /* Preview Content */,
 			);
@@ -336,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C718D8952C6B70EE00205B76 /* TestView.swift in Sources */,
 				C7305F2F2C6746380065FF3C /* CodeSnippet.swift in Sources */,
 				C77C50022C69036B00E1445D /* MemojiCardView.swift in Sources */,
 				C77C4FFE2C6900E100E1445D /* UITextView+Extension.swift in Sources */,
@@ -514,7 +518,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XcodeTips/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z629PZ4XVL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "부캐 카드 이미지 저장위한 권한이 필요합니다.";
@@ -550,7 +554,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XcodeTips/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z629PZ4XVL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "부캐 카드 이미지 저장위한 권한이 필요합니다.";
