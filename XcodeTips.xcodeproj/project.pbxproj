@@ -25,6 +25,7 @@
 		C77C4FFE2C6900E100E1445D /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77C4FFD2C6900E100E1445D /* UITextView+Extension.swift */; };
 		C77C50022C69036B00E1445D /* MemojiCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77C50012C69036B00E1445D /* MemojiCardView.swift */; };
 		C7B155502C6A03FB0015E91B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B1554F2C6A03FB0015E91B /* Title.swift */; };
+		DFC9EE572C6B70F6002A2B20 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC9EE562C6B70F6002A2B20 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		C77C4FFD2C6900E100E1445D /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		C77C50012C69036B00E1445D /* MemojiCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemojiCardView.swift; sourceTree = "<group>"; };
 		C7B1554F2C6A03FB0015E91B /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		DFC9EE562C6B70F6002A2B20 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +135,6 @@
 				C7305F342C67534F0065FF3C /* View */,
 				C7305F392C675EBB0065FF3C /* Data */,
 				C77C4FFC2C6900D100E1445D /* Extension */,
-				C7305F2E2C6746380065FF3C /* CodeSnippet.swift */,
 				C7305F082C663EC50065FF3C /* Assets.xcassets */,
 				C7305F0A2C663EC50065FF3C /* Preview Content */,
 			);
@@ -201,6 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				C77C4FFD2C6900E100E1445D /* UITextView+Extension.swift */,
+				DFC9EE562C6B70F6002A2B20 /* TestView.swift */,
+				C7305F2E2C6746380065FF3C /* CodeSnippet.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC9EE572C6B70F6002A2B20 /* TestView.swift in Sources */,
 				C7305F2F2C6746380065FF3C /* CodeSnippet.swift in Sources */,
 				C77C50022C69036B00E1445D /* MemojiCardView.swift in Sources */,
 				C77C4FFE2C6900E100E1445D /* UITextView+Extension.swift in Sources */,
@@ -514,7 +518,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XcodeTips/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = AT72Q82KM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "부캐 카드 이미지 저장위한 권한이 필요합니다.";
@@ -529,7 +533,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.usg.XcodeTips;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usg.XcodeTips.kyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -550,7 +554,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XcodeTips/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = AT72Q82KM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "부캐 카드 이미지 저장위한 권한이 필요합니다.";
@@ -565,7 +569,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.usg.XcodeTips;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usg.XcodeTips.kyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
