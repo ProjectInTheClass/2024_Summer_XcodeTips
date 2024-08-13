@@ -36,7 +36,6 @@ git push origin 자신의닉네임
 - Multi Cursor : `⌃(control) + ⇧(shift)` + 원하는 위치 클릭
     - 화살표로 커서 이동시, 선택된 커서 전체 이동
 - 괄호 접기: `⌥(option) + ⌘(command)` + 좌우 화살표
-- 직전에 편집중이던 파일로 이동: ⌃(control) + ⌘(command) + 좌우화살표
 - 코드 정렬: `⌃(control) + i`
     - 주로 전체 블록 선택(`⌘(command) + a`)과 함께 사용
 - Code Snippet
