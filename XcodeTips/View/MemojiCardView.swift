@@ -9,18 +9,18 @@ import SwiftUI
 
 // 괄호 접기: ⌥(option) + ⌘(command) + 좌우 화살표
 struct MemojiCardView: View {
-    var modl: CardModel
+    var modle: CardModel
     @State var viewSize: CGSize = .zero
     
     var cardView: some View {
-        CardView(model: modl) {
+        CardView(model: modle) {
             Group {
-                Text(modl.name)
+                Text(modle.name)
                     .font(.title)
-                    .foregroundColor(modl.mode == .light ? .black : .white)
+                    .foregroundColor(modle.mode == .light ? .black : .white)
                     .multilineTextAlignment(.center)
                     .frame(height: 40)
-                Image(uiImage: modl.image)
+                Image(uiImage: modle.image)
                     .resizable()
                     .scaledToFit()
                     .aspectRatio(1, contentMode: .fit)
@@ -110,6 +110,6 @@ struct MemojiCardView: View {
 }
 
 #Preview {
-    MemojiCardView(modl: .init(mode: .dark))
+    MemojiCardView(modle: .init(mode: .dark))
 }
 

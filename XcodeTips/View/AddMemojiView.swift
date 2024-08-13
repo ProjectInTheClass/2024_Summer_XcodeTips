@@ -69,7 +69,7 @@ struct AddMemojiView: View {
             }
             .navigationDestination(isPresented: $isPresented) {
                 MemojiCardView(
-                    modl: CardModel(
+                    modle: CardModel(
                         mode: model.mode,
                         name: model.name,
                         image: image
