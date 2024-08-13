@@ -17,3 +17,12 @@ import Foundation
 
 // MARK: - Life Cycles
 
+
+// MARK: - Properties
+
+// MARK: - Methods
+
+// MARK: - ViewBuilder
+
+// MARK: - Life Cycles
+
