@@ -17,7 +17,9 @@ struct SelectThemeView: View {
     // MARK: - Life Cycles
     var body: some View {
         VStack(spacing: 20) {
-            Text(Title.selectTheme.value).font(.title).padding(.top)
+            Text(Title.selectTheme.value)
+                .font(.title)
+                .padding(.top)
             
             // 카드
             CardView(model: .init(mode: mode)) {
